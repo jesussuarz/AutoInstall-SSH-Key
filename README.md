@@ -1,7 +1,6 @@
 # AutoInstall-SSH-Key
 ## Instalador de Llave Pública SSH
 
-
 Este es un instalador de llaves SSH que he desarrollado para la empresa GopherGroup, con el propósito de brindar soporte a servidores de una manera más segura.
 
 Lo que hace es instalar la llave pública en un servidor Linux y la coloca en el archivo de autorización de SSH.
@@ -26,7 +25,7 @@ md5sum id_rsa.pub
 
 Para descargar, utilice:
 `
-curl -o install_accesskey.sh https://clientes.gophergroup.com.co/repo/ssh_install_key.sh
+curl -o install_accesskey.sh https://URL_AND_YOUR_PATH/ssh_install_key.sh
 `
 
 Para ejecutar el código, utilice:
